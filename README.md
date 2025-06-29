@@ -546,7 +546,7 @@ journalctl -u unattended-upgrades --no-pager
 
 While IPv6 offers advantages, using both IPv4 and IPv6 (dual-stack networking) significantly complicates firewall configurations and increases security risks.
 
-#### Why diable IPv6?
+#### Why disable IPv6?
 
 - **Larger Attack Surface** → Both IPv4 and IPv6 require separate firewall rules, increasing complexity and risk of misconfiguration.
 - **Tracking Risks** → IPv6 can embed a device's MAC address in its IP (EUI-64 format), allowing attackers and advertisers to track device movements across networks.
